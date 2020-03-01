@@ -47,7 +47,7 @@ method Post http://localhost:8080/api/users/add
  {
  "username":"username",
  "password":"yourpassword",
-  "role":"1"
+  "role":1
  }
  Role 
  admin 1
@@ -58,7 +58,7 @@ method Post http://localhost:8080/api/users/update
  {
  "username":"username",
  "password":"yourpassword",
-  "role":"1"
+  "role":1
  }
  
 Delete User 
