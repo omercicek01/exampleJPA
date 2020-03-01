@@ -24,19 +24,19 @@ public class UserManager implements IUserService{
 
 	@Override
 	public void add(User user) {
-		// TODO Auto-generated method stub
+		this.userDal.add(user);
 		
 	}
 
 	@Override
 	public void update(User user) {
-		// TODO Auto-generated method stub
+		this.userDal.update(user);
 		
 	}
 
 	@Override
 	public void delete(int id) {
-		// TODO Auto-generated method stub
+		this.userDal.delete(id);
 		
 	}
 
