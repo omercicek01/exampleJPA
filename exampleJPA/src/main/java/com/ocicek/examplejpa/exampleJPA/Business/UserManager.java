@@ -43,7 +43,7 @@ public class UserManager implements IUserService{
 	@Override
 	public User findById(int id) {
 		// TODO Auto-generated method stub
-		return null;
+		return this.userDal.findById(id);
 	}
 
 }
